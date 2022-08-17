@@ -1,0 +1,20 @@
+.image_upload{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(238, 239, 243);
+    background: whitesmoke;
+    position: static;
+    top: 1;
+    
+}
+
+.progress_bar{
+    width: 100%;
+}

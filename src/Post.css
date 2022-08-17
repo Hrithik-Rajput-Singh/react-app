@@ -1,0 +1,46 @@
+.post{
+    max-width: 500px;               /*giving width 500 so the post complonent don't strech more than that*/
+    background-color: white;      /*component dealing*/
+    border: 1px solid lightgray;       /*dealing with component*/
+    margin-bottom: 45px;             /*dealing with component to give space in every post component*/    
+}
+.post_image{
+    width: 100%;
+    object-fit: contain;      /*it fit in container */
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;  
+}
+
+.post_text{
+    font-weight: normal;
+    padding: 20px;
+}
+
+.post_header{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.post_avatar{
+    margin: 10px;
+}
+.coment_display{
+    padding: 10px;
+}
+
+.post_commentBox{
+    display: flex;
+    margin-top: 10px;
+}
+.post_input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.post_button{
+    flex: 0;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
